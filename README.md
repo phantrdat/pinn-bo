@@ -1,4 +1,5 @@
-# Project Name
+# PINN-BO: A Black-box Optimization Algorithm using Physics-Informed Neural Networks
+ 
 
 This repository contains the source code and configurations for our PINN-BO paper, which has been accepted in ECML-PKDD 2024. 
 
