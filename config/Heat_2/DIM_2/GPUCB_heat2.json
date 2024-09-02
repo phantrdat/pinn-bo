@@ -1,0 +1,17 @@
+{
+    "function_name": "Heat_2",
+    "objective_type": "synthetic",
+    "algorithm_type": "GPUCB",
+    "acquisition_name": "UCB",
+    "dimension": 2,
+    "n_restart": 25,
+    "n_raw_samples": 128,
+    "normalized_inputs": false,
+    "normalized_outputs": false,
+    "n_iter": 250,
+    "n_init": 10,
+    "kernel_name": "Matern",
+    "first_run": 1,
+    "last_run": 11,
+    "use_cuda": true
+}

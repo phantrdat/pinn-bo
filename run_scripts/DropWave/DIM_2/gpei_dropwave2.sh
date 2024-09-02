@@ -1,0 +1,5 @@
+#!/bin/bash
+#SBATCH --partition=gpu --gpus=1 --cpus-per-gpu=1 --output=logs/DropWave/DIM_2/slurm_%j.out
+module load Anaconda3
+source activate pytorch_BO
+/home/trongp/.conda/envs/torch_bo/bin/python main_gpu_new.py -cfg config/DropWave/DIM_2/GPEI_dropwave2.json -gpu_id 0
