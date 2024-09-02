@@ -1,6 +1,6 @@
 # Project Name
 
-This repository contains the source code and configurations for our PINN-BO paper submitted to ECML-PKDD 2024. 
+This repository contains the source code and configurations for our PINN-BO paper, which has been accepted in ECML-PKDD 2024. 
 
 ## Requirements
 
